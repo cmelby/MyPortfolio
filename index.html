@@ -1,0 +1,232 @@
+
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Font Awesome------------->
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"/>
+      <!--Import materialize.css-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+      <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css"> -->
+      <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto+Condensed&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:200&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="style.css">
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <!--Favicon font links-->
+      <link rel="apple-touch-icon" sizes="180x180" href="Assets/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="Assets/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="Assets/favicon-16x16.png">
+      <link rel="manifest" href="Assets/site.webmanifest">
+      <title>Chris Melby's Portfolio</title>
+    </head>
+      <body>
+          <nav> 
+            <nav>
+              <div class="nav-wrapper black">
+                <a href="#" class="brand-logo center">CHRIS MELBY</a>
+                <ul id="nav-mobile" class="left hide-on-med-and-down"> 
+                </ul>
+                <ul id="nav-mobile" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i> 
+                </ul>
+              </div>
+            </nav>
+          </nav>
+          <ul id="slide-out" class="sidenav">
+            <li><div class="user-view black">
+              <div class="background black">
+                <img src="Assets/marketPlace.gif">
+              </div>
+              <a href="#user"><img class="circle" src="Assets/profile.jpeg"></a>
+              <br>
+            </div></li>
+            <li><a class="waves-effect hoverable waves-green" href="https://github.com/cmelby">GitHub</a></li>
+            <li><a class="waves-effect hoverable waves-purple" href="https://www.linkedin.com/in/chris-melby-71106b126/">LinkedIn</a></li>
+            <li><a href="https://medium.com/me/stories/public" class="waves-effect hoverable waves-teal hoverable">Articles</a></li>
+            <li><a class="waves-effect modal-trigger hoverable waves-green" href="#modal1">About Me</a></li>
+            <li><div class="divider"></div></li>
+            <li><a href="mailto:melby.christopher@gmail.com?subject=Saw%20Your%20Portfolio!&body=Hey%20Chris," 
+                  class="waves-effect btn waves-purple"
+                  target="_blank" rel="noopener noreferrer">Contact Me</a></li>
+          </ul>
+            <!-- Modal Structure -->
+            <div id="modal1" class="modal">
+              <div class="modal-content">
+                <h4>About Me</h4>
+                <p>Software engineer with experience as a Digital
+                  Marketing Strategist. Studied full-stack web
+                  development at University California Berkeley
+                  (Ext.) Skills in HTML, CSS, React.js, and
+                  JavaScript. Strengths in meeting deadlines,
+                  creativity, and teamwork. Passionate about
+                  developing a user-experience that has an
+                  impact.
+                </p>
+
+                <p>
+                  Enthusiastic about approaching programming
+                  challenges from different angles and
+                  collaborating with others to create meaningful
+                  web applications. Motivated to develop
+                  responsive websites and positioned well to
+                  provide novel perspectives on end-user
+                  interactions on websites and software
+                  platforms by leveraging my previous
+                  experience in digital marketing.</p>
+              </div>
+              <div class="modal-footer">
+                <a href="#!" class="modal-close waves-effect waves-purple btn-flat">For More Info Contact Me</a>
+              </div>
+            </div>
+            <!-------Parellax--------------------------->
+              <div class="parallax-container"> 
+                <div class="parallax"><img src="Assets/bgmain.gif"></div>
+                <!-- <div class="parallax"><img src="Assets/bg2.gif"></div> -->
+              </div>
+                <!-------Content 1--------------------------->
+                <div class="section1 valign-wrapper">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col m6 col s12">
+                      <h2>Market Place</h2>
+                      <p>MERN stack application built using React, MongoDB, Express, and Node. 
+                        React State and useRef hooks utilized to add local state independently 
+                        at the mounting lifecycle in our component models. JWTs issued using OpenID 
+                        Connect and used to protect API endpoints while authenticating HTTP requests 
+                        using JWT tokens. Deployed on Heroku.
+                      </p>
+                      <a href="https://github.com/cmelby/MarketPlace" class="waves-effect waves-light btn hoverable tooltipped" data-tooltip="Enjoy!">GitHub Repo</a>
+                      <a href="https://ancient-savannah-99735.herokuapp.com/" class="waves-effect waves-light btn hoverable tooltipped" data-tooltip="Enjoy!">Demo Site</a>
+                    </div>
+                      <div class="col m6 col s12">
+                          <div class="content1"></div> <!---- add repo and git btn -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                  <!-------Parellax--------------------------->
+                  <div class="parallax-container"> <!---- add vide -->
+                    <div class="parallax"><img src="Assets/bgmain.gif"></div>
+                    <!-- <div class="parallax"><img src="Assets/bg2.gif"></div> -->
+                  </div>
+                    <!-------Content 2--------------------------->
+                    <div class="section2 valign-wrapper">
+                      <div class="container">
+                      <div class="row">
+                        <div class="col m6 col s12 float right">
+                        <h2>Project Board</h2>
+                        <p>Built with MySQL, Handlebars, jQuery, and Express. Project board is a browser based 
+                          personal productivity tool configured for deployment on Heroku. MySQL schemas keep track 
+                          of user tasks and Handlebars in tandem with jQuery were used for the functionality of rendering 
+                          and manipulating elements on the DOM. This project is deployed on Heroku.
+                        </p>
+                        <a href="https://github.com/cmelby/ProjectBoard" class="waves-effect waves-light btn hoverable tooltipped" data-tooltip="Enjoy!">GitHub Repo</a>
+                        <a href="https://ancient-savannah-99735.herokuapp.com/" class="waves-effect waves-light btn hoverable tooltipped" data-tooltip="Enjoy!">Demo Site</a>
+                      </div>
+                        <div class="col m6 col s12">
+                          <div class="content2"></div> <!---- add repo and git btn -->
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                      <!-------Parellax--------------------------->
+                    <div class="parallax-container"> <!---- add vide -->
+                      <div class="parallax"><img src="Assets/bgmain.gif"></div>
+                      <!-- <div class="parallax"><img src="Assets/bg2.gif"></div> -->
+                    </div>
+                    <!-------Content 3--------------------------->
+                    <div class="section3 valign-wrapper">
+                      <div class="container">
+                      <div class="row">
+                        <div class="col m6 col s12">
+                        <h2>Google Book Search</h2>
+                        <p>MERN stack application using a React class components and lifecycle methods to render book information 
+                          pulled using the google book api based on user input. This uses mongoDB to store users saved books and was 
+                          configured to be deployed on Heroku.</p>
+                          <a href="https://github.com/cmelby/GoogleBookSearch" class="waves-effect waves-light btn hoverable tooltipped" data-tooltip="Enjoy!">GitHub Repo</a>
+                          <a href="https://quiet-lake-98090.herokuapp.com/" class="waves-effect waves-light btn hoverable tooltipped" data-tooltip="Enjoy!">Demo Site</a>
+                      </div>
+                        <div class="col m6 col s12">
+                          <div class="content3"></div> <!---- add repo and git btn -->
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                    <!-------Parellax--------------------------->
+                    <div class="parallax-container"> <!---- add vide -->
+                      <div class="parallax"><img src="Assets/bgmain.gif"></div>
+                      <!-- <div class="parallax"><img src="Assets/bg2.gif"></div> -->
+                    </div>
+                      <!-------Content 4--------------------------->
+                      <div class="section4 valign-wrapper">
+                        <div class="container">
+                        <div class="row">
+                          <div class="col m6 col s12  float right">
+                            <h2>Sapling</h2>
+                          <p> Sapling is a MERN stack application 
+                            leveraging 3 retail APIs allowing users to track product prices across Amazon, Walmart, and Best Buy. Built on 
+                            a React front end, Saplings React UI components utilize a global state file to pass state and effect hooks to 
+                            refactor compartmentalized components used elsewhere in the application. User authentication is handled by passport 
+                            while user account information is handled by a MongoDB backend.
+                          </p>
+                          <a href="https://github.com/cmelby/sapling" class="waves-effect waves-light btn hoverable tooltipped" data-tooltip="Enjoy!">GitHub Repo</a>
+                          <a href="https://sapling-tracker.herokuapp.com/" class="waves-effect waves-light btn hoverable tooltipped" data-tooltip="Enjoy!">Demo Site</a>
+                        </div>
+                          <div class="col m6 col s12">
+                              <div class="content4"></div> <!---- add repo and git btn -->
+                          </div>
+                        </div>
+                      </div>
+                      </div>
+                      <!-------Parellax--------------------------->
+                        <div class="parallax-container">
+                          <div class="parallax"><img src="Assets/bgmain.gif"></div>
+                          <!-- <div class="parallax"><img src="Assets/bg2.gif"></div> -->
+                        </div>
+                        <!-------Content 5--------------------------->
+                      <div class="section5 valign-wrapper">
+                        <div class="wrapper">
+                        <div class="row">
+                          <div id="my-info" class="row">
+                            <h3>Reach Me through:</h3>
+                            <div id="profile-links" class="col m6 s6">
+                              <ul>
+                                <li><a class="waves-effect waves-teal black-text" href="https://github.com/cmelby"><h5>GitHub</h5></a>
+                                </li>
+                                <li><a class="waves-effect waves-teal black-text" href="https://www.linkedin.com/in/chris-melby-71106b126/"><h5>LinkdeIn</h5></a>
+                                </li>
+                                <li><a class="waves-effect waves-teal black-text" href="https://medium.com/me/stories/public"><h5>Articles</h5></a>
+                                </li>
+                                <li><a class="waves-effect waves-teal black-text" href="https://www.notion.so/About-Me-d8d13f4884ac443d8c378135b2965183"><h5>About Me</h5></a>
+                              </ul>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                  <!----Footer-->
+                  <footer class="page-footer black">
+                    <div class="container">
+                      <div class="row center">
+                          <h5 class="white-text">Full-Stack Engineer </h5>
+                          <h6 class="grey-text text-lighten-4">Current locatoin: San Fransisco</h6> 
+                        <div class="col l4 offset-l2 s12">
+                        </div>
+                      </div>
+                      </div>
+                    <div class="footer-copyright">
+                  <div class="container center">
+                © 2020 Copyright
+              </div>
+            </div>
+          </footer>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script> -->
+        <script type="text/javascript" src="app.js"></script>
+        <script type="text/javascript" src="index.js"></script>
+      </body>
+  </html>
+  

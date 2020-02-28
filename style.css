@@ -1,0 +1,86 @@
+.parallax-container .parallax {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.section1,
+.section2,
+.section3,
+.section4 {
+  height: 400px;
+}
+.section5 {
+ height: 500px;
+}
+
+.wrapper {
+  margin-left: 50px;
+}
+.btn-large {
+  background-color: rgb(55, 182, 175);
+  border: none;
+  display: inline-block;
+  margin: 4px 2px; 
+  border-radius: 16px;
+}
+
+.sidenav .user-view .circle {
+  height: 200px;
+  width: 210px;
+}
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+  
+  /*************Sliding Links************/
+
+#profile-links ul li {
+    padding-left: 7px;
+    /* margin-bottom: 15px; */
+    transition: all .4s ease-in-out;
+    transform: translate3d(-40px, 0, 0);
+    opacity: 0;
+
+  }
+  #profile-links ul li.active {
+    transform: translate3d(0px, 0, 0);
+    opacity: 1;
+  }
+
+  /*====================================>*/
+
+  @media only screen and (max-width: 600px) {
+  .container {
+    text-align: center;
+
+  }
+  .section {
+    justify-content: center;
+  }
+  .col {
+    text-align: center;
+  }
+  .section1,
+  .section2,
+  .section3,
+  .section4 {
+    height: 500px;
+  }
+  .section5 {
+  height: 700px;
+  }
+ h2 {
+   font-size: 3rem;
+ }
+
+}

@@ -1,6 +1,4 @@
-
-
-  let renderCard1 = event => {
+    let renderCard1 = event => {
       
       let content1 = $(".content1") 
       content1.empty()

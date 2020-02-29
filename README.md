@@ -1,7 +1,7 @@
 # Portfolio
 
 ## Summary 
-This portfolio houses pieces of work that I have created and can be used to gain insight into my skills and knowledge. You can find links to demo the different pieces along with their respective repository in GitHub, as well as links to my LinkedIn and personal GitHub profile. You will also be able to find out a little about me in the about me tab at the bottom along with a list of skills I have developed.
+This portfolio houses samples of work that I have created and can be used to gain insight into my skills and knowledge. You can find links to demo the different pieces along with their respective repository in GitHub, as well as links to my LinkedIn and personal GitHub profile. You will also be able to find out a little about me in the about me tab at the bottom along with a list of skills I have developed.
 
 ## Technologies Used
 - Materialize CSS - Used to pull existing html and CSS for creating responsive organizational structer and styling for the site. In addtion, pulling from their JS library's built in scripts to utilize plugins for animations.
